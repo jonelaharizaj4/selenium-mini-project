@@ -1,5 +1,5 @@
 
-<suite name="QA Automation Suite" verbose="1" parallel="true" preserve-order="true">
+<suite name="QA Automation Suite" verbose="1" parallel="false" preserve-order="true">
 
     <listeners>
         <listener class-name="utils.TestListener"/>

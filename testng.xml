@@ -1,0 +1,21 @@
+
+<suite name="QA Automation Suite" verbose="1" parallel="true" preserve-order="true">
+
+    <listeners>
+        <listener class-name="utils.TestListener"/>
+    </listeners>
+
+    <test name="Sequential UI Tests">
+        <classes>
+            <class name="tests.RegistrationTest"/>
+            <class name="tests.LoginTest"/>
+            <class name="tests.HoverTest"/>
+            <class name="tests.SaleTest"/>
+            <class name="tests.CheckFiltersTest"/>
+            <class name="tests.SortingTest"/>
+            <class name="tests.ShoppingCartTest"/>
+            <class name="tests.EmptyShoppingCartTest"/>
+        </classes>
+    </test>
+
+</suite>
